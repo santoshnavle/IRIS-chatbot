@@ -292,9 +292,16 @@ font-family: 'DM Sans', sans-serif;
 
 
 @media (max-width: 425px){
-    .chatboat {
-        position: relative;
+    .chatboat{
+        min-height: 629px;
+    }
+    .chatboat {        
         right: 0;
+        bottom: 5px;
+    }
+
+    .faq-q ul li a{
+        font-size: 11px;
     }
 }
 
