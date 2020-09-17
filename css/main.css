@@ -303,6 +303,11 @@ font-family: 'DM Sans', sans-serif;
     .faq-q ul li a{
         font-size: 11px;
     }
+
+    #close-chat {
+        right: 10px;
+        top: 10px;
+    }
 }
 
 
