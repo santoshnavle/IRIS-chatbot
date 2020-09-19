@@ -71,7 +71,7 @@ font-family: 'DM Sans', sans-serif;
     padding-bottom: 30px;
     z-index: 5;
     max-height: 629px;
-    min-height: 478px;
+    /* min-height: 478px; */
 }
 
 /* head part */
