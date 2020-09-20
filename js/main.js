@@ -12,9 +12,9 @@ $(document).ready(function(){
          }, 2000);
 
 
-        setTimeout(function(){ 
-            $('.conversion-btn').fadeIn(800);           
-         }, 300);
+        // setTimeout(function(){ 
+        //     $('.conversion-btn').fadeIn(800);           
+        //  }, 300);
        
          
          $('#close-chat').show(500);
