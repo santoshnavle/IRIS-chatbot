@@ -60,7 +60,7 @@ font-family: 'DM Sans', sans-serif;
 .chatboat{
     width: 100%;
     max-width: 416px;    
-    position: absolute;
+    position: fixed;
     right: 10px;
     bottom: 5px;    
     border-radius: 18px;   
@@ -124,8 +124,7 @@ font-family: 'DM Sans', sans-serif;
     border-radius: 8px;
     margin:0 12px 0 12px;
     position: relative;
-    bottom:80px;
-    min-height: 295px;
+    bottom:80px;    
     padding: 50px 26px 21px;   
     height: calc(100% - 180px);
     /* min-height:367px;  */    
@@ -318,17 +317,38 @@ font-family: 'DM Sans', sans-serif;
 
 
 @media (max-width: 425px){
-    .chatboat{
-        min-height: 629px;
-    }
+    
     .chatboat {        
         right: 0;
-        bottom: 5px;
+        bottom: 20px;
+        padding-bottom: 10px;
+        height: calc(100% - 30px);
+        
     }
 
     .faq-q ul li a{
-        font-size: 11px;
+        font-size: 10px;
     }
+
+    .chatboat .chat-head{
+        max-width: 100%;
+        padding: 10px 20px 49px 30px;
+    }
+
+    .chat-head .lead {
+        font-size: 26px;
+    }
+
+    .chat-head .assit{ 
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .faq-box{
+        padding: 50px 15px 21px;
+        margin: 0 6px 0 6px;
+    }
+    
 
     /* #close-chat {
         right: 10px;
